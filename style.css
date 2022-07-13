@@ -7,16 +7,25 @@ h1 {
     font: size 50px;
 }
 
+h2 {
+    font: size 45px;
+    padding: 2%;
+}
+
+h3 {
+    font: size 40px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
 
-.half-width {
+.experience-item {
     width: 50%;
     padding-left: 2%;
 }
@@ -38,8 +47,14 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.Big-Dream{
+
+.Big-Dream {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
 }
