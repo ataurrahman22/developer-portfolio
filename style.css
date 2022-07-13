@@ -8,8 +8,8 @@ h1 {
 }
 
 h2 {
-    font: size 45px;
-    padding: 2%;
+    font: size 50px;
+    padding: 1%;
 }
 
 h3 {
@@ -53,8 +53,25 @@ h3 {
     background-repeat: no-repeat;
     background-position: right;
 }
-
+.experience-area{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .experience-item {
+    margin-right: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
     box-shadow: 10px 10px 40px gray;
     width: 40%;
+}
+#junior-web-developer{
+    border-left: 7px solid tomato;
+}
+#video-creator{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
+}
 }
